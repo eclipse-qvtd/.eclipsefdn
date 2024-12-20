@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-qvtd') {
+orgs.newOrg('modeling.mmt.qvtd', 'eclipse-qvtd') {
   settings+: {
     description: "",
     name: "Eclipse QVTd project",
